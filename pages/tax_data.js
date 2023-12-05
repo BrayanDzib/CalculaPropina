@@ -24,7 +24,7 @@ export default function TaxCalculated(){
         <View style={styles.containerBill}>
             <View style={styles.mainBox}>
                 <View style={styles.paymentBoxes}>
-                    <Text>pago por</Text>
+                    <Text>pago por: </Text>
                     <Text> {howMany} persona/s</Text>
                     <TouchableOpacity style={styles.amountBtns}
                     onPress={incrementPersons}
@@ -38,7 +38,7 @@ export default function TaxCalculated(){
                     <Text>{((dataUser.userAmount / persons)   +  (Math.max(dataUser.userAmount * (percent / 100), dataUser.userAmount * (0.1))/persons)) * howMany } </Text>
                 </View>
                 <View style={styles.paymentBoxes}>
-                    <Text>pago con ....</Text>
+                    <Text>pago con:</Text>
                     <TextInput
                     style={styles.inputsValues}
                      placeholder={money.paymentAmount}

@@ -26,7 +26,7 @@ function TaxCalculator({navigation}){
         <View style={styles.container}> 
             <StatusBar barStyle="dark-content" backgroundColor="#E3E4D3"  />
             <View style={styles.headerBox}>
-                <Text style={styles.headerText}>Calculador de Propinas</Text>
+                <Text style={styles.headerText}>Calculadora de Propinas</Text>
             </View>
             <View style={styles.mainBox}>
                 <View style={styles.internalMainBoxes}>
@@ -74,7 +74,7 @@ function TaxCalculator({navigation}){
                         <Text style={styles.textBtnpercentTax}>20%</Text></TouchableOpacity>
                 </View>
                 <View style={styles.internalMainBoxes}>
-                    <Text>Propina</Text>
+                    <Text>Propina: </Text>
                     <View
                     style={styles.inputsValues}
                     >
@@ -108,7 +108,7 @@ function TaxCalculator({navigation}){
                 <TouchableOpacity style={styles.btnSendValues}
                     onPress={()=>{navigation.navigate('ValuesTo')}}
                 >
-                    <Text style={styles.textBtnSendValues}>Pagar</Text>
+                    <Text style={styles.textBtnSendValues}>PAGAR</Text>
                 </TouchableOpacity>
             </View>
         </View>

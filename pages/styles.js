@@ -7,7 +7,7 @@ export default landingDesign=StyleSheet.create({
         display:'flex',
         alignItems:'center',
         justifyContent:'space-between',
-        backgroundColor:'#000000',
+        backgroundColor:'#FFFFFF',
         flexDirection:'column',
     },
     headerBox:{
@@ -16,7 +16,7 @@ export default landingDesign=StyleSheet.create({
         display:'flex',
         alignItems:'center',
         justifyContent:'center',
-        backgroundColor:'#8b3a62',
+        backgroundColor:'#0000FF',
     },
     headerText:{
         fontSize:22,
@@ -25,7 +25,7 @@ export default landingDesign=StyleSheet.create({
     mainBox:{
         width:'95%',
         height:'40%',
-        borderColor:'#000000',
+        borderColor:'#FFFFFF',
         borderWidth:2,
         display:'flex',
         justifyContent:'space-around',
@@ -36,7 +36,7 @@ export default landingDesign=StyleSheet.create({
     footerBox:{
         width:'95%',
         height:'40%',
-        borderColor:'#000000',
+        borderColor:'#FFFFFF',
         borderWidth:2,
         display:'flex',
         justifyContent:'space-between',
@@ -53,8 +53,8 @@ export default landingDesign=StyleSheet.create({
     inputsValues:{
         width:'45%',
         height:40,
-        borderColor:'#000000',
-        borderBottomWidth:2,
+        borderColor:'#00000',
+        borderBottomWidth:1,
         display:'flex',
         alignItems:'center',
         justifyContent:'center'
@@ -62,8 +62,8 @@ export default landingDesign=StyleSheet.create({
     btnsPercents:{
         width:'20%',
         height:'100%',
-        backgroundColor:'#8b3a62',
-        borderRadius:10,
+        backgroundColor:'#0000FF',
+        borderRadius:15,
         display:'flex',
         alignItems:'center',
         justifyContent:'center',
@@ -79,7 +79,7 @@ export default landingDesign=StyleSheet.create({
     },
     footerInformationContainer:{
         width:'100%',
-        height:'50%',
+        height:'70%',
         display:'flex',
         flexDirection:'column',
         alignItems:'center',
@@ -97,8 +97,9 @@ export default landingDesign=StyleSheet.create({
     },
     btnSendValues:{
         width:'30%',
+        marginTop: 20,
         height:35,
-        backgroundColor:'#ffffff',
+        backgroundColor:'#dddddd',
         marginBottom:50,
         display:'flex',
         alignItems:'center',
@@ -129,7 +130,7 @@ export default landingDesign=StyleSheet.create({
         alignItems:'center',
         justifyContent:'space-between',
         flexDirection:'row',
-        backgroundColor:'#00ffcc',
+        backgroundColor:'#0000FF',
         borderRadius:5,
         paddingLeft:15,
         paddingRight:15,
