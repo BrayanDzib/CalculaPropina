@@ -53,7 +53,7 @@ export default landingDesign=StyleSheet.create({
     inputsValues:{
         width:'45%',
         height:40,
-        borderColor:'#00000',
+        borderColor:'#000000',
         borderBottomWidth:1,
         display:'flex',
         alignItems:'center',
@@ -120,7 +120,7 @@ export default landingDesign=StyleSheet.create({
         display:'flex',
         alignItems:'center',
         justifyContent:'center',
-        backgroundColor:'#000000',
+        backgroundColor:'#00000',
         flexDirection:'column',
     },
     paymentBoxes:{
@@ -134,5 +134,18 @@ export default landingDesign=StyleSheet.create({
         borderRadius:5,
         paddingLeft:15,
         paddingRight:15,
+    },
+    about_us:{
+        height:'100%',
+        width:'100%',
+        display:'flex',
+        alignItems:'center',
+        justifyContent:'space-between',
+        backgroundColor:'#ffffff',
+        flexDirection:'column',
+    },
+    text_about:{
+        fontSize:20,
+        fontWeight:'bold'
     }
 })
