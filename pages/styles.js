@@ -26,7 +26,7 @@ export default landingDesign=StyleSheet.create({
         width:'95%',
         height:'40%',
         borderColor:'#FFFFFF',
-        borderWidth:2,
+        borderWidth:10,
         display:'flex',
         justifyContent:'space-around',
         alignItems:'center',
@@ -119,8 +119,8 @@ export default landingDesign=StyleSheet.create({
         width:'100%',
         display:'flex',
         alignItems:'center',
-        justifyContent:'center',
-        backgroundColor:'#00000',
+        justifyContent:'space-between',
+        backgroundColor:'#FFFFFF',
         flexDirection:'column',
     },
     paymentBoxes:{
@@ -147,5 +147,57 @@ export default landingDesign=StyleSheet.create({
     text_about:{
         fontSize:20,
         fontWeight:'bold'
+    },
+    main_about:{
+        width:'95%',
+        height:'15%',
+        display:'flex',
+        flexDirection:'column',
+        alignItems:'center',
+        justifyContent:'space-between',
+    },
+    btn_preferences:{
+        width:250,
+        height:50,
+        backgroundColor:'#0096c7',
+        display:'flex',
+        alignItems:'center',
+        justifyContent:'center'
+    },
+    text_preferences:{
+        fontSize:18,
+        color:'#ffffff'
+    },
+    settings_preferences:{
+        height:'100%',
+        width:'100%',
+        display:'flex',
+        alignItems:'center',
+        justifyContent:'space-between',
+        backgroundColor:'#dddddd',
+        flexDirection:'column',
+    },
+    box_settings:{
+        width:'90%',
+        height:'30%',
+        backgroundColor:'#999999',
+        marginTop:'5%',
+        display:'flex',
+        flexDirection:'column',
+        alignItems:'center',
+        justifyContent:'space-around'
+    },
+    setting_boxes:{
+        width:'90%',
+        height:'25%',
+        display:'flex',
+        alignItems:'center',
+        justifyContent:'space-between',
+        flexDirection:'row'
+    },
+    input_preferences:{
+        width:'50%',
+        height:'80%',
+        backgroundColor:'#ffffff'
     }
 })
